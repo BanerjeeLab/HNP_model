@@ -1,0 +1,10 @@
+{
+    "Th": 0.1,
+    "v0": 0.04,
+    "ma": 0.001,
+    "md": 0.001,
+    "mf": 0.08,
+    "Sigma0": 0.01,
+    "CrawlingLeader": "R2",
+    "PrePatterned": "NO"
+}
