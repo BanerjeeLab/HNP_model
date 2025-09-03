@@ -44,5 +44,5 @@ The /Simulation/ directory contains the following:
 - Email: (shiladtb@andrew.cmu.edu)
   
 ## Who do I talk to?
-- Fernanda Pérez-Verdugo (fverdugo@andrew.cmu.edu)
+- Fernanda Pérez-Verdugo (fer20mc@gmail.com)
 - Shiladitya Banerjee (shiladtb@andrew.cmu.edu)
