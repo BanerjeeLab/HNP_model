@@ -3,7 +3,7 @@ Computational model for Hindbrain neuropore morphogenesis, as detailed in "Self-
 
 ## Authors / Contributors
 - Fernanda Pérez-Verdugo (Institute of Science and Technology Austria, ISTA)
-- Shiladitya Banerjee (Carnegie Mellon University)
+- Shiladitya Banerjee (Georgia Institute of Technology)
 
 ## System Requirements
 - Python 3.9.7
@@ -41,8 +41,8 @@ The /Simulation/ directory contains the following:
  **6. snapshots.py:** This script generate visual snapshots of the tissue, showing the nematic field across the tissue as in Fig3B. Uses data from /resultados/ to create visualizations. Snapshots are saved in the /snapshots/ directory.
 
 ## Contribution guidelines
-- Email: (shiladtb@andrew.cmu.edu)
+- Email: (sbanerjee347@gatech.edu)
   
 ## Who do I talk to?
 - Fernanda Pérez-Verdugo (fer20mc@gmail.com, Fernanda.PerezVerdugo@ist.ac.at)
-- Shiladitya Banerjee (shiladtb@andrew.cmu.edu)
+- Shiladitya Banerjee (sbanerjee347@gatech.edu)
