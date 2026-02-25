@@ -2,7 +2,7 @@
 Computational model for Hindbrain neuropore morphogenesis, as detailed in "Self-organized cell patterning via mechanical feedback in hindbrain neuropore morphogenesis".
 
 ## Authors / Contributors
-- Fernanda Pérez-Verdugo (Carnegie Mellon University)
+- Fernanda Pérez-Verdugo (Institute of Science and Technology Austria, ISTA)
 - Shiladitya Banerjee (Carnegie Mellon University)
 
 ## System Requirements
@@ -33,8 +33,8 @@ The /Simulation/ directory contains the following:
 - CrawlingLeader: Specifies the crawling model. Options:
     - "R1": Row 1 leader.
     - "R2": Row 2 leader.
-- PrePatterned: Specifies whether a pre-patterned nematic field around the HNP gap is considered. Options:
-"YES" or "NO". Examples:
+- PrePatterned: Specifies whether a pre-patterned nematic field around the HNP gap is considered. Options: "YES" or "NO".
+- Examples:
     - config_fig2A.json: Reproduces the simulation shown in Figure 2A.
     - config_fig3B.json: Reproduces the simulation shown in Figure 3B.
 
@@ -44,5 +44,5 @@ The /Simulation/ directory contains the following:
 - Email: (shiladtb@andrew.cmu.edu)
   
 ## Who do I talk to?
-- Fernanda Pérez-Verdugo (fer20mc@gmail.com)
+- Fernanda Pérez-Verdugo (fer20mc@gmail.com, Fernanda.PerezVerdugo@ist.ac.at)
 - Shiladitya Banerjee (shiladtb@andrew.cmu.edu)
