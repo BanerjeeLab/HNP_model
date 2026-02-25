@@ -10,6 +10,7 @@ from matplotlib.patches import Polygon
 from matplotlib.collections import PatchCollection
 import seaborn as sns
 import matplotlib.colors as colors
+import os
 
 matplotlib.use('Agg')
 
@@ -114,6 +115,14 @@ def crear_T(texto0,texto1,texto2):
     T1.draw2()
     return T1
 
+# === Setup and Cleanup ===
+directories = ['snapshots_nematic']
+# Clean up old directories
+for directory in directories:
+    if os.path.exists(directory):
+        shutil.rmtree(directory)
+    os.mkdir(directory)
+    
 
 plt.close('all')
 factor = np.sqrt(2/(3*np.sqrt(3)))
@@ -130,11 +139,11 @@ for i in range(130):
     fig, ax1 = plt.subplots()
     patches = []
     patches_red = []
-    T1 = crear_T('./resultados/'+str(i)+'_vertices.txt', './resultados/'+str(i)+'_celda.txt','./resultados/'+str(i)+'_celulas.txt')
+    T1 = crear_T('./results/'+str(i)+'_vertices.txt', './results/'+str(i)+'_celda.txt','./results/'+str(i)+'_celulas.txt')
     plt.axis('off')
     plt.axis('scaled')
     fig.set_size_inches(4, 5)
-    texto0 = './resultados/'+str(i)+'_celulas.txt'
+    texto0 = './results/'+str(i)+'_celulas.txt'
     data0 = np.loadtxt(texto0)
     cx = data0[:,3]
     cy = data0[:,4]
